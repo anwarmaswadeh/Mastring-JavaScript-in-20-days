@@ -2,7 +2,7 @@
 # Gaza Sky Geeks Learning Sprint - 20-Day Learning JavaScript Challenge 
 
 ### Welcome to my 20-Day Learning JavaScript Challenge! 
-In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'll explore different aspects of JavaScript, building a solid foundation and gaining hands-on experience through practical exercises and projects.🔍📚
+In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'll explore different aspects of JavaScript, building a solid foundation and gaining hands-on experience through practical exercises and projects.
 
 ### I'm ready to discover the secrets of JavaScript! 
 
@@ -32,3 +32,5 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 * Celebrate your achievements and reflect on your growth throughout the challenge.
 
 ## Folder Structure 
+1. [Day 1](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day1.md)
+2. [Day 2](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day2.md)
