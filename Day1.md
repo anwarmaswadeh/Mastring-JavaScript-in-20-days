@@ -28,6 +28,7 @@
 - document.getElementById("p1-name").append(" & friends") => add to the end of the element's current text.
 - 
 ## Coding Exercises
+```html
 //Finding Elements
 //1. all the p elements
 document.getElementsByName("p").
@@ -47,6 +48,7 @@ document.getElementById("p1-symbol").textContent = "O"
 document.getElementById("p2-symbol").textContent = "X"
 //3. Change subtitle to "A game you know and love"
 document.querySelector("h2").appened("and love")
+```
 
 ## challenges
 ```java script
