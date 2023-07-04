@@ -49,6 +49,7 @@ document.getElementById("p2-symbol").textContent = "X"
 document.querySelector("h2").appened("and love")
 
 ## challenges
+```java script
 //First challeng : Compound Assignment With Augmented Multiplication
 //let a = 5;
 //let b = 12;
@@ -67,3 +68,4 @@ document.querySelector("h2").appened("and love")
 
 // Only change code below this line
 //const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+```
