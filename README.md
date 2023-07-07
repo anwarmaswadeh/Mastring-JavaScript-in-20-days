@@ -34,3 +34,5 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 ## Folder Structure 
 1. [Day 1](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day1.md)
 2. [Day 2](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day2.md)
+3. [Day 3](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day3.md)
+4. [Day 4](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day4.md)
