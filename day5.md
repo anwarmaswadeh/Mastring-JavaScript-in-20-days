@@ -42,3 +42,99 @@ console.log(...skills);
 ```
 
 ## challenges
+### [Rick & Morty Characters List:](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day5-task/task.md)
+#### My Solution
+##### script.js
+```
+async function fetchCharacters() {
+    try {
+      const response = await fetch('https:/\
+    /rickandmortyapi.com/api/character?status=alive');
+      if (!response.ok) {
+        throw new Error('Failed to fetch character data');
+      }
+      const data = await response.json();
+  
+      const characters = data.results.slice(0, 50);
+  
+      const characterList = document.getElementById('characterList');
+  
+      characters.forEach((character) => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `
+          <img src="${character.image}" alt="${character.name}">
+          <div>
+            <h3>${character.name}</h3>
+            <p><strong>Location:</strong> ${character.location.name}</p>
+            <p><strong>Species:</strong> ${character.species}</p>
+            <p><strong>Gender:</strong> ${character.gender}</p>
+          </div>
+        `;
+        characterList.appendChild(listItem);
+      });
+    } catch (error) {
+      const characterList = document.getElementById('characterList');
+      characterList.innerHTML = `<li>${error.message}</li>`;
+    }
+  }
+  
+  fetchCharacters();
+  ```
+
+##### styles.css
+```
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+```
+
+##### index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alive Character List</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Alive Character List</h1>
+  <ul id="characterList"></ul>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+```
