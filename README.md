@@ -43,3 +43,4 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 9. [Day 9](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day9.md)
 10. [Day 10](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day10.md)
 11. [Day 11](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day11.md)
+12. [Day 12](https://github.com/anwarmaswadeh/Mastring-JavaScript-in-20-days/blob/main/Day12.md)
