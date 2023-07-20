@@ -15,9 +15,6 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 * [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
 * [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
-## Coding Challenges 
-* [Basic JavaScript 1st challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code) - 113 Challenges
-
 ## Daily Learning Process 
 1. Each day, I'll watch 90 minutes of the assigned courses listed above.
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
