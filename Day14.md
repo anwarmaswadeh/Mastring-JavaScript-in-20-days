@@ -2,6 +2,9 @@
 
 ## Topics: 
 ### Scope & Function Expressions
+- Anonymous functions don't have a name. But, named functions can reference themselves using their own name.
+- Named function expressions are often more useful for debugging purposes, whereas anonymous functions may appear as (anonymous) in stack traces.
+- IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
 
 ### Advanced Scope
 - The most predominat example of the dynamic scoping model is actully Bash script.
